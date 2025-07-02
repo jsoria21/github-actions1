@@ -9,8 +9,7 @@ jobs:
     
     runs-on: ubuntu-latest
     
-    steps:
-     - uses: action/checkout@v3
+    steps:     
      - name: "prueba de mensaje"
        run: |
         echo "I am Reusable Workflow one"
