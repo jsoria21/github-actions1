@@ -1,7 +1,7 @@
 name: My Starter Workflow
 
 on:
-  workflow_dispatch:
+    workflow_dispatch:
 
 jobs:
 
