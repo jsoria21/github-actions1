@@ -12,6 +12,6 @@ jobs:
     steps:     
      - name: "prueba de mensaje"
        run: |
-        echo "I am Reusable Workflow one"
+        echo "I am Reusable Workflow one, on branch"
 
 
