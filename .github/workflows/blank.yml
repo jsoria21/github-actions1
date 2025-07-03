@@ -16,6 +16,8 @@ jobs:
       platform: aws
       region: us-east-1
       account: 123456789012
+    
+      token: ${{secrets.GITHUB_TOKEN}}
 
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -28,3 +30,5 @@ jobs:
           echo "Esto es el valor de platform ${{env.platform}}"
           echo "Esto es el valor de region ${{env.region}}"
           echo "Esto es el valor de account ${{env.account}}"
+
+          echo "Esto es el valor de token ${{env.token}}"
